@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul - Personal Portfolio Site</title>
+    <meta name="author" content="Atul Prajapati | Freelance web developer">
+    <meta name="description" content="Atul is a portfolio HTML5 website template for creatives, freelancers & professional individuals. Shunning the traditional vCard style, Atul allows you to represent yourself in a new, modern & more personal way. This helps you connect better with the visitor and build a personal touch to create a conversation rather than a monologue. With top of the line design and execution, Atul enjoys a timeless style which makes it function more beyond any trends. Simply put, this design makes sure that your website will never grow old with changing trends.">
+    <meta name="keywords" content="Atul personal portfolio template, Atul portfolio template, Atul html portfolio template, Atul html personal portfolio template, personal portfolio template free download, personal portfolio theme, personal portfolio html5 template free download, personal portfolio html5 template, personal leadership portfolio template, personal portfolio design template, personal portfolio html template free download, one page personal portfolio template, creative personal portfolio template, responsive personal portfolio template, personal development portfolio template, web developer portfolio template, web developer portfolio website template, web designer portfolio template, web designer portfolio website template, personal portfolio template html, personal portfolio template for web developer, personal portfolio template site, personal portfolio template 2020">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/Atul-favicon.png"/>
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External Javascript -->
+    <script src="main.js"></script>
+
+    <!-- FontAwesome Icons Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- Jquery cdn link -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Magnific popup -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- Typed JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+<body>
+    <!-- Loading screen starts from here -->
+    <div class="loading-screen">
+        <div class="loading-animation">
+            <img src="img/Atul-favicon.png" alt="Atul - Portfolio Site" class="fav-logo">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+    <!-- Loading screen ends from here -->
+
+    <!-- Header section starts from here -->
+    <header>
+        <a href="#" class="logo">Atul.</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="index.html#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="index.html#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">Contact Me</a></li>
+        </ul>
+    </header>
+    <!-- Header section ends from here -->
+
+    <!-- Hero/Banner section starts from here -->
+    <section class="banner">
+        <div class="textBx">
+            <h2>Hello, I'm<br/> <span>Atul Prajapati.</span></h2>
+            <h6>And I'm a <span class="typing"></span></h6>
+            <a href="#about">
+                <button class="btn btn-about"> About Me </button>
+            </a>
+        </div>
+    </section>
+    <!-- Hero/Banner section ends from here -->
+
+    <!-- About Section starts from here -->
+    <section class="about" id="about">
+        <h2 class="heading">About Me.</h2>
+        <div class="about-content">
+            <div class="content-side">
+                <h3>I'm a <span class="about-typing"></span></h3>
+                <p>
+                    I'm a Creative Web Designer/Developer and E-commerce specialist Helping small and medium size businesses to grow online with my creative skills. I have dirty my hand with coding at the age of 14 & learned programming from online platforms like udemy & Udacity and also contribute free source code on codepen GitHub and Codesand Box and i always like to create something on my own which looks Great and feel Awesome, Find out some example here on my site. I am in this field since last 4+ years so it would be great if i get a chance to prove myself to provide you with better quality service.  
+                </p>
+                <br/>
+                <p>
+                    I joined the Department of Electronics and Computer Engineering at the Technical University of Crete, where I attended several courses like Databases with MySQL Embedded Microprocessors, Graphics, Human-Computer Interaction, Object Oriented Programming with Java, Web Development. Finished my studies in 2013, when I obtained a Master's Degree.
+                </p>
+                <div class="button-social-link-area">
+                    <div class="button-area">
+                        <a href="#" target="_blank">
+                            <button class="btn btn-resume"> Download Resume </button>
+                        </a>
+                    </div>
+                    <div class="social-area">
+                        <a href="https://www.facebook.com/atul.prajapati.5492216">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/atuljustano">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/atulcodex/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw?view_as=subscriber">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/atul-prajapati-05420916a/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="image-side">
+                <img src="img/me.jpg" class="my-img" alt="Atul Prajapati" title="Atul Prajapati">
+            </div>
+        </div>
+    </section>
+    <!-- About Section ends from here -->
+
+    <!-- Services section starts from here -->
+    <section class="services" id="services">
+        <h2 class="heading service-heading"> What i Do. </h2>
+        <p>I offer the full spectrum of services to help org's work better.</p>
+
+        <div class="service-contents">
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Design</h3>
+                <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience..</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to...</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-funnel-dollar"></i>
+                </div>
+                <h3>Digital Marketing</h3>
+                <p>At a high level, digital marketing refers to advertising delivered through digital channels such as...</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Web Hosting</h3>
+                <p>Every website that you visit consists of a domain name and a web host. The easiest way to picture it is to think of...</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fab fa-app-store-ios"></i>
+                </div>
+                <h3>App Development</h3>
+                <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as...</p>
+            </div>
+            <div class="service-content">
+                <div class="service-icon">
+                    <i class="fab fa-cloudsmith"></i>
+                </div>
+                <h3>IOT Projects</h3>
+                <p>The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors...</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ends from here -->
+
+    <!-- My work section starts from here -->
+    <section class="work" id="work">
+        <h2 class="heading service-heading"> Recent Works. </h2>
+        <p>I take a tremendous amount of pride in the the work I do.</p>
+
+        <div class="work-section">
+            <div class="inner-width">    
+                <div class="work">
+                    <a href="img/work1.png" class="image">
+                        <img src="img/work1.png" alt="Work 8">
+                    </a>
+    
+                    <a href="img/work2.png" class="image">
+                        <img src="img/work2.png" alt="Work 1">
+                    </a>
+    
+                    <a href="img/work3.png" class="image">
+                        <img src="img/work3.png" alt="Work 2">
+                    </a>
+    
+                    <a href="img/work4.png" class="image">
+                        <img src="img/work4.png" alt="Work 3">
+                    </a>
+    
+                    <a href="img/work5.png" class="image">
+                        <img src="img/work5.png" alt="Work 4">
+                    </a>
+    
+                    <a href="img/work6.png" class="image">
+                        <img src="img/work6.png" alt="Work 5">
+                    </a>
+    
+                    <a href="img/work7.png" class="image">
+                        <img src="img/work7.png" alt="Work 6">
+                    </a>
+    
+                    <a href="img/work8.png" class="image">
+                        <img src="img/work8.png" alt="Work 7">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My work section ends from here -->
+
+    <!-- Testimonial section starts from here -->
+    <section class="testimonial" id="testimonial">
+        <h2 class="heading service-heading"> Client Say's. </h2>
+        <p>My client's testimonials speak loud for my services.</p>
+
+        <div class="testimonial-content">
+            <div class="testimonial-row">
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/client1.jpg" alt="Atul Prajapati client testimonial 1">
+                        <div class="name">Julia Gao Miller</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Excellent work. Pleased with Atul and his team's ability to deliver exactly as he said he would. They have lots of experience with WordPress and was able...
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/Client2.jpg" alt="Atul Prajapati client testimonial 2">
+                        <div class="name">John Waddrob</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>
+                            High level of programming skills, Amazing job done! Excellent Work! Delivered well in time, great guy to work with as he's very understanding.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-col">
+                    <div class="testimonial-card">
+                        <img src="img/Client3.jpg" alt="Atul Prajapati client testimonial 3">
+                        <div class="name">Milly Berst</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            Such a great professional to deal with. Atul Prajapati was really keen good to complete his work Easy to communicate with and very trustworthy and fast...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section ends from here -->
+
+    <!-- Contact section starts from here -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me.</h2>
+        <p>Have a project in mind, let's discuss in detail for better tommorow.</p>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-info-bx">
+                    <h3>Contact Info</h3>
+                    <div class="box">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>4671 Sugar Camp Road,<br/> Owattona, Minnesota, 55060.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 9845 673248</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="contact-icon">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>me@atulprajapati.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-bx">
+                    <form action="">
+                        <h3>Message Me</h3>
+                        <input type="text" name="" placeholder="Enter Name" required>
+                        <input type="email" name="" placeholder="Enter Email" required>
+                        <textarea name="" id="" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Now">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section ends from here -->
+
+    <!-- Copyright section starts from here -->
+    <div class="copyright">
+        <p>Copyright © 2020 Atul Prajapati. All Rights Reserved.</p>
+    </div>
+    <!-- Copyright section ends from here -->
+
+    <!-- Back to top button starts from here -->
+    <a href="#" class="to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- Back to top button ends from here -->
+        
+    <script>
+        // Loading screen starts from here
+        let loadingScreen = document.querySelector('.loading-screen');
+
+        window.addEventListener('load', function()
+        {
+            loadingScreen.style.display = 'none';
+        });
+        // Loading screen ends from here
+
+        // Magnific popup code starts from here
+        $(".work").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            work:{
+                enabled: true
+            }
+        });
+        // Magnific popup code ends from here
+
+        // Typed Js code starts from here
+        var typed = new Typed('.typing', {
+            strings: [
+                "FrontEnd Developer.",
+                "Photographer.",
+                "Marketer."
+            ],
+            typeSpeed: 80,
+            backSpeed: 40,
+            // startDelay: 120,
+            loop: true
+        });
+
+        var typed = new Typed('.about-typing', {
+            strings: [
+                "FrontEnd Developer.",
+                "Photographer.",
+                "Marketer."
+            ],
+            typeSpeed: 80,
+            backSpeed: 40,
+            // startDelay: 120,
+            loop: true
+        });
+        // Typed Js code ends from here
+
+        // Scroll to top button js code starts from here
+        const toTop = document.querySelector(".to-top");
+
+        window.addEventListener("scroll", () => {
+            if(window.pageYOffset > 100)
+            {
+                toTop.classList.add("active");
+            }
+            else
+            {
+                toTop.classList.remove("active");
+            }
+        })
+        // Scroll to top button code ends from here
+    </script>
+</body>
+</html>
